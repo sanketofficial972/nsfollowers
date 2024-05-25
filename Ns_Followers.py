@@ -12,8 +12,8 @@ class Ns_Followers:
         self.__AES_NoPadding = AES_CBC_NoPadding()
 
         self.__userid='295918259'
-        self.__username='captiansanketyt'
-        self._session='295918259%3A2TZdW6cIWMQkfl%3A10%3AAYdRw3HKQYgr-z6bJUDAeKjfHhnos9PyWYhP75NQTA'
+        self.__username='captainsanket'
+        self._session='295918259%3A7Nvli4HPVyBaZx%3A9%3AAYdT9uMHTsWkUG8eCgN4HuzKLnqBDpQc2vB3bJAy1g'
 
         self.__Pk=self.__userid.encode()+b'*'+str(random.randint(111,999)).encode()
         self.__Ip=os.urandom(8).hex().encode()+b'*'+str(random.randint(111,999)).encode()
